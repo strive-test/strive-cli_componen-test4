@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": false,
   "description": "1233",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run clean && npm run build:esm && npm run build:umd",
